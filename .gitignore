@@ -17,3 +17,5 @@
 .cxx
 local.properties
 .kotlin/sessions
+.kotlin/sessions/
+.kotlin/sessions/*

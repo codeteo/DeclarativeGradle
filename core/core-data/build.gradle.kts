@@ -1,14 +1,10 @@
 plugins {
-    alias(libs.plugins.android.library)
-}
-
-android {
-    namespace = "com.declarative.core_data"
-    compileSdk = 36
+    kotlin("jvm")
+    kotlin("plugin.serialization")
 }
 
 dependencies {
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
+    implementation(libs.retrofit)
+    implementation(libs.coroutines)
+    implementation(libs.kotlinx.serialization)
 }

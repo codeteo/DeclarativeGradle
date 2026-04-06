@@ -10,6 +10,12 @@ kotlin = "2.2.10"
 composeBom = "2026.02.01"
 appcompat = "1.6.1"
 material = "1.10.0"
+okHttp = "5.3.2"
+okHttpInterceptor = "5.3.2"
+retrofit = "3.0.0"
+kotlinXserialization = "1.10.0"
+kotlinXconverted = "1.0.0"
+coroutines = "1.10.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -26,6 +32,12 @@ androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "u
 androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+ok-http = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttp" }
+ok-http-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okHttpInterceptor" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+kotlinx-serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinXserialization" }
+kotlinx-serialization-converted = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "kotlinXconverted" }
+coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 
 # Dependencies of the included build-logic
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle-api", version.ref = "agp" }

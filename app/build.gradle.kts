@@ -5,7 +5,6 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
     id("dev.zacsweers.metro") version "0.13.1"
-    kotlin("plugin.serialization") version "2.2.20"
 }
 
 android {
