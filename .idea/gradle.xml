@@ -27,6 +27,9 @@
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/core/core-data" />
             <option value="$PROJECT_DIR$/core/core-ui" />
+            <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/feature_details" />
+            <option value="$PROJECT_DIR$/features/feature_list" />
           </set>
         </option>
       </GradleProjectSettings>

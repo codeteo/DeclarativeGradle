@@ -46,3 +46,5 @@ rootProject.name = "MyDeclarativeGradle"
 include(":app")
 include(":core:core-ui")
 include(":core:core-data")
+include(":features:feature_list")
+include(":features:feature_details")
