@@ -22,7 +22,7 @@ defaults {
         jdkVersion = 17
         minSdk = 21
         targetSdk = 34
-        compileSdk = 34
+        compileSdk = 36
 
         lint {
             enabled = true
