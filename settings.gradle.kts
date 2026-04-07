@@ -45,7 +45,7 @@ dependencyResolutionManagement {
 rootProject.name = "MyDeclarativeGradle"
 include(":app")
 include(":common:common-ui")
-include(":common:common-data")
+include(":common:common-domain")
 include(":features:feature_list")
 include(":features:feature_details")
 include(":core:model")

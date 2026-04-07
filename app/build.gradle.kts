@@ -65,7 +65,7 @@ dependencies {
     implementation(libs.kotlinx.serialization.converted)
 
     implementation(projects.common.commonUi)
-    implementation(projects.common.commonData)
+    implementation(projects.common.commonDomain)
 
     testImplementation(libs.junit)
     debugImplementation(libs.androidx.compose.ui.tooling)
