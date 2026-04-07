@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.declarative.core_ui.components.Greeting
+import com.declarative.core_ui.components.MovieList
 import com.declarative.core_ui.theme.MyDeclarativeGradleTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyDeclarativeGradleTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
+                    MovieList(
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )

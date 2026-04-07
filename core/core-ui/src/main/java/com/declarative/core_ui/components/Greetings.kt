@@ -7,7 +7,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.declarative.core_ui.theme.MyDeclarativeGradleTheme
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun MovieList(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
         modifier = modifier
@@ -16,8 +16,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun MovieListPreview() {
     MyDeclarativeGradleTheme {
-        Greeting("Android")
+        MovieList("Android")
     }
 }
