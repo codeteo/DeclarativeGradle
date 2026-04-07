@@ -2,8 +2,6 @@ package com.example.core_data.data
 
 import com.declarative.model.Movie
 import com.declarative.model.Movies
-import kotlinx.serialization.SerialName
-import kotlinx.serialization.Serializable
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
