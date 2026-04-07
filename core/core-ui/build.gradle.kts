@@ -1,10 +1,5 @@
 plugins {
-    alias(libs.plugins.android.library)
-}
-
-android {
-    namespace = "com.declarative.core_ui"
-    compileSdk = 36
+    kotlin("jvm")
 }
 
 dependencies {
