@@ -1,10 +1,10 @@
-package com.declarative.core_ui.components
+package com.declarative.common_ui.components
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.declarative.core_ui.theme.MyDeclarativeGradleTheme
+import com.declarative.common_ui.theme.MyDeclarativeGradleTheme
 
 @Composable
 fun MovieList(name: String, modifier: Modifier = Modifier) {

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.declarative.core_ui"
+    namespace = "com.declarative.common_ui"
     compileSdk = 36
 
     buildFeatures {

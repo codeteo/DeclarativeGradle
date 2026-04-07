@@ -62,7 +62,7 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:3.0.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0")
 
-    implementation(project(":core:core-ui"))
+    implementation(project(":common:common-ui"))
 
     testImplementation(libs.junit)
     debugImplementation(libs.androidx.compose.ui.tooling)
