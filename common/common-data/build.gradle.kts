@@ -7,4 +7,6 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.coroutines)
     implementation(libs.kotlinx.serialization)
+
+    implementation(projects.core.model)
 }
