@@ -1,4 +1,4 @@
-package com.declarative.app.ui.theme
+package com.declarative.core_ui.theme
 
 import androidx.compose.ui.graphics.Color
 
