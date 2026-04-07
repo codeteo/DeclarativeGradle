@@ -27,6 +27,8 @@
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/common/common-data" />
             <option value="$PROJECT_DIR$/common/common-ui" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/model" />
             <option value="$PROJECT_DIR$/features" />
             <option value="$PROJECT_DIR$/features/feature_details" />
             <option value="$PROJECT_DIR$/features/feature_list" />
