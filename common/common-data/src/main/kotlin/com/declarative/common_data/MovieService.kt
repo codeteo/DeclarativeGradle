@@ -1,4 +1,4 @@
-package com.example.core_data.data
+package com.declarative.common_data
 
 import com.declarative.model.Movie
 import com.declarative.model.Movies
