@@ -8,6 +8,7 @@ import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFact
 import dev.zacsweers.metro.AppScope
 import dev.zacsweers.metro.ContributesTo
 import dev.zacsweers.metro.DependencyGraph
+import dev.zacsweers.metro.Named
 import dev.zacsweers.metro.Provider
 import dev.zacsweers.metro.Provides
 import kotlinx.serialization.json.Json
@@ -26,6 +27,7 @@ interface AppGraph {
 interface NetworkGraph {
 
     @Provides
+    @Named("api_key")
     fun providesApiKey(): String = API_KEY
 
     @Provides
