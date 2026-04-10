@@ -3,9 +3,12 @@ package com.declarative.app.di
 import androidx.lifecycle.ViewModel
 import com.declarative.app.BuildConfig
 import com.declarative.app.BuildConfig.API_KEY
+import com.declarative.common_data.MovieRepository
 import com.declarative.common_data.MovieService
+import com.declarative.common_data.MoviesRepositoryImpl
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import dev.zacsweers.metro.AppScope
+import dev.zacsweers.metro.Binds
 import dev.zacsweers.metro.ContributesTo
 import dev.zacsweers.metro.DependencyGraph
 import dev.zacsweers.metro.Named
@@ -20,7 +23,9 @@ import retrofit2.Retrofit
 
 @DependencyGraph(AppScope::class)
 interface AppGraph {
-    // todo currently empty
+    val repository: MovieRepository
+    @Binds
+    val MoviesRepositoryImpl.bind: MovieRepository
 }
 
 @ContributesTo(AppScope::class)
