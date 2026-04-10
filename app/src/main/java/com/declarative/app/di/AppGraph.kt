@@ -1,5 +1,6 @@
 package com.declarative.app.di
 
+import android.app.Application
 import androidx.lifecycle.ViewModel
 import com.declarative.app.BuildConfig
 import com.declarative.app.BuildConfig.API_KEY
@@ -26,6 +27,11 @@ interface AppGraph {
     val repository: MovieRepository
     @Binds
     val MoviesRepositoryImpl.bind: MovieRepository
+
+    @DependencyGraph.Factory
+    fun interface Factory {
+        fun create(@Provides application: Application): AppGraph
+    }
 }
 
 @ContributesTo(AppScope::class)
