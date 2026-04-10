@@ -10,6 +10,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.declarative.common_ui.components.MovieList
 import com.declarative.common_ui.theme.MyDeclarativeGradleTheme
+import com.declarative.list.MainList
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyDeclarativeGradleTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    MovieList(
+                    MainList(
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )

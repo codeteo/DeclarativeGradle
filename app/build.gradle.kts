@@ -68,6 +68,9 @@ dependencies {
     implementation(projects.common.commonDomain)
     implementation(projects.common.commonData)
 
+    // features
+    implementation(projects.features.featureList)
+
     testImplementation(libs.junit)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
