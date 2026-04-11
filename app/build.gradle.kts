@@ -68,6 +68,10 @@ dependencies {
     implementation(projects.common.commonDomain)
     implementation(projects.common.commonData)
 
+    // navigation
+    implementation(libs.androidx.navigation3.ui)
+    implementation(libs.androidx.navigation3.runtime)
+
     // features
     implementation(projects.features.featureList)
 
