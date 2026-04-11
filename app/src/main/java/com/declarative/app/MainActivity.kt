@@ -26,6 +26,7 @@ class MainActivity : ComponentActivity() {
                 NavDisplay(
                     backStack = backStack,
                     onBack = { backStack.removeLastOrNull() },
+                    // TODO: replace inner block with entryProvider
                     entryProvider = { key ->
                         when (key) {
                             MainKey -> NavEntry(key) {

@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.compose)
+    id("dev.zacsweers.metro") version "0.13.1"
 }
 
 android {
@@ -26,6 +27,7 @@ dependencies {
 
     implementation(projects.core.model)
     implementation(projects.common.commonUi)
+    implementation(projects.common.commonData)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
