@@ -2,9 +2,12 @@ package com.declarative.common_data
 
 import com.declarative.model.Movie
 import com.declarative.model.Movies
+import dev.zacsweers.metro.AppScope
 import dev.zacsweers.metro.Inject
 import dev.zacsweers.metro.Named
+import dev.zacsweers.metro.SingleIn
 
+@SingleIn(AppScope::class)
 class MoviesRepositoryImpl @Inject constructor(
     private val moviesService: MovieService,
     @Named("api_key") private val API_KEY: String
