@@ -2,12 +2,11 @@ package com.declarative.app.di
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
-import com.declarative.app.BuildConfig
 import com.declarative.app.BuildConfig.API_KEY
 import com.declarative.app.MetroViewModelFactory
-import com.declarative.common_data.MovieRepository
-import com.declarative.common_data.MovieService
-import com.declarative.common_data.MoviesRepositoryImpl
+import com.declarative.common_domain.MovieRepository
+import com.declarative.common_domain.MovieService
+import com.declarative.common_domain.MoviesRepositoryImpl
 import com.declarative.list.MainViewModel
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import dev.zacsweers.metro.AppScope

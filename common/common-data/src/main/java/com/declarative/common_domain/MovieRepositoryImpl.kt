@@ -1,4 +1,4 @@
-package com.declarative.common_data
+package com.declarative.common_domain
 
 import com.declarative.model.Movie
 import com.declarative.model.Movies

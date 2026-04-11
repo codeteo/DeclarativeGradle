@@ -27,7 +27,7 @@ dependencies {
 
     implementation(projects.core.model)
     implementation(projects.common.commonUi)
-    implementation(projects.common.commonData)
+    implementation(projects.common.commonDomain)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
