@@ -17,6 +17,7 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    implementation(libs.coroutines)
 
     // compose
     implementation(platform(libs.androidx.compose.bom))
@@ -25,6 +26,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
 
+    // projects
     implementation(projects.core.model)
     implementation(projects.common.commonUi)
     implementation(projects.common.commonDomain)
